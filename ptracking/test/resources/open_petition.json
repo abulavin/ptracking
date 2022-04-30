@@ -1,0 +1,76 @@
+{
+    "links": {
+        "self": "https://petition.parliament.uk/petitions/596722.json"
+    },
+    "data": {
+        "type": "petition",
+        "id": 1,
+        "attributes": {
+            "action": "Reform policy on Channel Crossings and create safe routes for refugees",
+            "background": "It has been reported that the Home Office is training staff to employ “turn-around” tactics at sea, to send back small boats carrying migrants. The Government should abandon this policy, and invest in long-term solutions and safe and legal routes for refugees wishing to seek sanctuary in Britain.",
+            "additional_details": "International maritime law stipulates that ships have a clear duty to assist those in distress, people at risk of losing their lives at sea must be rescued. The plans announced by the Home Office are in stark contrast to these obligations. Seeking to turn around boats carrying migrants, rather than offering aid, could put the lives of thousands of innocent refugee children, women and men have at greater risk. ",
+            "committee_note": "",
+            "state": "open",
+            "signature_count": 5014,
+            "created_at": "2021-09-09T11:39:08.643Z",
+            "updated_at": "2021-11-26T16:31:08.000Z",
+            "rejected_at": null,
+            "opened_at": "2021-09-17T10:48:57.209Z",
+            "closed_at": null,
+            "moderation_threshold_reached_at": "2021-09-09T11:59:48.000Z",
+            "response_threshold_reached_at": null,
+            "government_response_at": null,
+            "debate_threshold_reached_at": null,
+            "scheduled_debate_date": null,
+            "debate_outcome_at": null,
+            "creator_name": "Steven Martin",
+            "rejection": null,
+            "government_response": null,
+            "debate": {
+                "debated_on": "2021-11-26",
+                "transcript_url": "https://hansard.parliament.uk/commons/2021-11-15/debates/1/Abcde"
+            },
+            "departments": [
+            ],
+            "topics": [],
+            "signatures_by_country": [
+                {
+                    "name": "Australia",
+                    "code": "AU",
+                    "signature_count": 3
+                },
+                {
+                    "name": "Belgium",
+                    "code": "BE",
+                    "signature_count": 2
+                },
+                {
+                    "name": "Bulgaria",
+                    "code": "BG",
+                    "signature_count": 1
+                }
+            ],
+            "signatures_by_constituency": [
+                {
+                    "name": "Aldershot",
+                    "ons_code": "E14000530",
+                    "mp": "Leo Docherty MP",
+                    "signature_count": 1
+                },
+                {
+                    "name": "Altrincham and Sale West",
+                    "ons_code": "E14000532",
+                    "mp": "Sir Graham Brady MP",
+                    "signature_count": 8
+                },
+                {
+                    "name": "Amber Valley",
+                    "ons_code": "E14000533",
+                    "mp": "Nigel Mills MP",
+                    "signature_count": 2
+                }
+            ],
+            "other_parliamentary_business": []
+        }
+    }
+}

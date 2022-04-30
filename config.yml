@@ -1,0 +1,32 @@
+# Keys should adhere to the keyword parameters of psycopg2.connect
+# The basic connection parameters are:
+#   dbname – the database name (database is a deprecated alias)
+#   user – user name used to authenticate
+#   password – password used to authenticate
+#   host – database host address (defaults to UNIX socket if not provided)
+#   port – connection port number (defaults to 5432 if not provided)
+Database:
+    user: petitions
+    database: petitions
+    host: 20.90.101.42
+    port: 5432
+Sources:
+    # Include the {debate_id} field so DebateFetcher knows where to insert the ID
+    debates: https://hansard.parliament.uk/debates/GetDebateAsText/{debate_id}
+
+    # This should be a list of urls containing JSON data about open
+    # (active) petitions which will be scraped daily.
+    open_petitions: 
+        - https://petition.parliament.uk/petitions.json?state=open
+
+    # This should be a list of URLs containing JSON data about
+    # petitions we only need to collect once. Namely, this variable
+    # should contain URLs to archived petitions from previous governments
+    # or petitions created during the current government that are now
+    # closed or rejected and therefore will no longer receive signatures.
+    other_petitions:
+        - https://petition.parliament.uk/petitions.json?state=closed
+        - https://petition.parliament.uk/petitions.json?state=rejected
+        - https://petition.parliament.uk/archived/petitions.json?parliament=3&state=all
+        - https://petition.parliament.uk/archived/petitions.json?parliament=1&state=all
+        - https://petition.parliament.uk/archived/petitions.json?parliament=2&state=all
